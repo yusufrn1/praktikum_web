@@ -1,0 +1,30 @@
+export default function LatihanAudit() {
+  return (
+    <div className="p-8">
+      <h1 className="text-2xl font-bold">Katalog Alat Laboratorium</h1>
+
+      <img src="/next.svg" width={120} height={24} alt="Logo Next.js" />
+
+      <p className="text-gray-700 mt-4">Stok diperbarui setiap hari.</p>
+
+      <label htmlFor="cari" className="block mt-4 font-medium">
+        Cari alat
+      </label>
+      <input
+        id="cari"
+        type="search"
+        className="border p-2"
+        aria-describedby="cari-bantuan"
+      />
+      <p id="cari-bantuan" className="text-sm text-gray-600">
+        Masukkan nama alat laboratorium.
+      </p>
+
+      <button className="ml-2 border p-2" aria-label="Cari">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true">
+          <circle cx="7" cy="7" r="5" stroke="currentColor" fill="none" />
+        </svg>
+      </button>
+    </div>
+  );
+}
