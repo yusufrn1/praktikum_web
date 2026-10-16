@@ -1,0 +1,45 @@
+import type { Item } from "./tipe";
+export const daftarItem: Item[] = [
+	{
+		id: 1,
+		judul: "Panel surya atap",
+		kategori: "energi",
+		deskripsi: "Pemantauan produksi listrik harian.",
+		tersedia: true,
+	},
+	{
+		id: 2,
+		judul: "Turbin angin",
+		kategori: "energi",
+		deskripsi: "Pemantauan produksi listrik dari tenaga angin.",
+		tersedia: true,
+	},
+	{
+		id: 3,
+		judul: "Sensor kualitas udara",
+		kategori: "lingkungan",
+		deskripsi: "Pemantauan kualitas udara di area kampus.",
+		tersedia: true,
+	},
+	{
+		id: 4,
+		judul: "Pemantauan konsumsi gedung",
+		kategori: "kampus",
+		deskripsi: "Ringkasan penggunaan energi pada setiap gedung.",
+		tersedia: true,
+	},
+	{
+		id: 5,
+		judul: "Pengelolaan air hujan",
+		kategori: "lingkungan",
+		deskripsi: "Pemantauan penampungan dan penggunaan air hujan.",
+		tersedia: false,
+	},
+	{
+		id: 6,
+		judul: "Kondisi ruang kelas",
+		kategori: "kampus",
+		deskripsi: "Pemantauan kenyamanan dan penggunaan ruang kelas.",
+		tersedia: true,
+	},
+];
